@@ -1,0 +1,24 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+.product-small-img img{
+    height: 92px;
+    margin: 10px 0px;
+    cursor: pointer;
+    display:block;
+    opacity:0.6;
+}
+.product-small-img{float:left;}
+.product-large-img img{
+height:450px;}
+.product-small-img img:hover{opacity:1;}
+
+.product{
+    top: 20%;
+    left:20%;
+    transform:-50%;
+    translate:-50%;
+    position: absolute;
+}
+.product-large-img{float:right;padding:10px}

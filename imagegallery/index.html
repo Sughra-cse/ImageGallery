@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Food place</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <h2>FoodItems</h2>
+    <div class="product">
+        <div class="product-small-img">
+            <img src="images/cake.jpg" width="100px" height="100px" onclick="myfunction1(this)" >
+            <img src="images/japanese Vegetarian.jpg" width="100px" height="100px"onclick="myfunction1(this)">
+            <img src="images/juice.jpg" width="100px" height="100px"onclick="myfunction1(this)">
+            <img src="images/mango.jpg" width="100px" height="100px" onclick="myfunction1(this)">
+            <img src="images/pani-puri.jpg" width="100px" height="100px"onclick="myfunction1(this)">
+            <img src="images/pizza.jpg" width="100px" height="100px"onclick="myfunction1(this)"> </div>
+            <div class="product-large-img">
+                <img id="imagebox" src="images/pizza.jpg">
+            </div>
+    </div>
+    <script>
+        function myfunction1(Smallimg){
+    var fullimg = document.getElementById("imagebox");
+    fullimg.src=Smallimg.src;
+    return fullimg;
+}
+    </script>
+</body>
+</html>
